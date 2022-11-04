@@ -1,0 +1,72 @@
+* {
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+.container {
+    display: flex;
+}
+
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-right: 2px solid grey;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-family: "Montserrat";
+}
+
+.description {
+    width: 100%;
+    padding: 0 25px 15px;
+    text-align: justify;
+}
+
+
+.marketData {
+    width: 100%;
+    padding: 10px 25px;
+}
+
+
+.chartContainer {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.buttonContainer {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+
+.button {
+    border: 1px solid gold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: "Montserrat";
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: gold;
+    color: black;
+}

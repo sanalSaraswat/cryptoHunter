@@ -1,0 +1,55 @@
+* {
+    font-family: 'Montserrat';
+}
+
+
+.banner {
+    background-image: url("https://raw.githubusercontent.com/piyush-eon/react-crypto-tracker/master/public/banner2.jpg");
+    /* background-image: url("../images/banner2.jpg"); */
+    height: 400px;
+    width: 100%;
+}
+
+.bannerContext {
+    height: 400px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tagline {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carousel {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.carouselItem {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.tableRow {
+    cursor: pointer;
+
+}
+
+.tableRow:hover {
+    background-color: #131111;
+}
+
+
+
